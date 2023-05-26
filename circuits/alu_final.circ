@@ -963,19 +963,19 @@
     </comp>
     <comp lib="0" loc="(2000,1690)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="c_i6"/>
+      <a name="label" val="c_i7"/>
     </comp>
     <comp lib="0" loc="(2000,1720)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="c_i6"/>
+      <a name="label" val="c_i8"/>
     </comp>
     <comp lib="0" loc="(2000,1750)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="c_i6"/>
+      <a name="label" val="c_i9"/>
     </comp>
     <comp lib="0" loc="(2000,1780)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="c_i6"/>
+      <a name="label" val="c_i10"/>
     </comp>
     <comp lib="0" loc="(2010,1010)" name="Tunnel">
       <a name="facing" val="east"/>
