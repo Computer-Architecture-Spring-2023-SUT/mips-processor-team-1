@@ -99,7 +99,7 @@
     <comp lib="0" loc="(200,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="aluOP"/>
-      <a name="width" val="7"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(270,150)" name="Tunnel">
       <a name="label" val="func"/>
@@ -107,7 +107,7 @@
     </comp>
     <comp lib="0" loc="(290,220)" name="Tunnel">
       <a name="label" val="aluOP"/>
-      <a name="width" val="7"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(330,440)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -125,7 +125,7 @@
     <comp lib="0" loc="(710,180)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="aluOP"/>
-      <a name="width" val="7"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(740,320)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -139,13 +139,13 @@
       <a name="bit3" val="0"/>
       <a name="bit4" val="0"/>
       <a name="bit5" val="0"/>
-      <a name="bit6" val="1"/>
-      <a name="incoming" val="7"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="6"/>
     </comp>
     <comp lib="0" loc="(860,180)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="fanout" val="7"/>
-      <a name="incoming" val="7"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
     </comp>
     <comp lib="0" loc="(960,330)" name="Tunnel">
       <a name="label" val="opcd_fnc"/>
@@ -157,13 +157,13 @@
     <comp lib="2" loc="(940,330)" name="Multiplexer">
       <a name="width" val="6"/>
     </comp>
-    <comp lib="8" loc="(214,101)" name="Text">
+    <comp lib="8" loc="(210,100)" name="Text">
       <a name="text" val="inputs"/>
     </comp>
-    <comp lib="8" loc="(265,396)" name="Text">
+    <comp lib="8" loc="(265,395)" name="Text">
       <a name="text" val="outputs"/>
     </comp>
-    <comp lib="8" loc="(897,81)" name="Text">
+    <comp lib="8" loc="(895,80)" name="Text">
       <a name="text" val="logic"/>
     </comp>
     <wire from="(1010,170)" to="(1040,170)"/>
@@ -191,6 +191,7 @@
     <wire from="(760,180)" to="(760,350)"/>
     <wire from="(760,180)" to="(860,180)"/>
     <wire from="(760,350)" to="(770,350)"/>
+    <wire from="(790,340)" to="(790,350)"/>
     <wire from="(790,340)" to="(910,340)"/>
     <wire from="(880,150)" to="(940,150)"/>
     <wire from="(880,160)" to="(950,160)"/>
