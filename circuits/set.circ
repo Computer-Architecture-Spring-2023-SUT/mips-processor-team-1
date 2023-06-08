@@ -145,6 +145,26 @@
       <a name="label" val="data4"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1270,930)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="vc0"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1270,960)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(1270,990)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="vc1"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1280,930)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(1280,990)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
     <comp lib="0" loc="(1290,820)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="data0"/>
@@ -226,6 +246,12 @@
       <a name="facing" val="south"/>
       <a name="label" val="data_in"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1470,960)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="valid_miss"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(150,140)" name="Tunnel">
       <a name="label" val="data_in"/>
@@ -665,10 +691,20 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1190,1200)" name="OR Gate"/>
+    <comp lib="1" loc="(1370,940)" name="AND Gate">
+      <a name="negate1" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(1370,980)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="1" loc="(1380,370)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1380,630)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(1450,960)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(1560,370)" name="AND Gate">
@@ -833,10 +869,19 @@
     <wire from="(1250,890)" to="(1330,890)"/>
     <wire from="(1270,300)" to="(1270,410)"/>
     <wire from="(1270,560)" to="(1270,670)"/>
+    <wire from="(1270,930)" to="(1280,930)"/>
+    <wire from="(1270,960)" to="(1290,960)"/>
+    <wire from="(1270,990)" to="(1280,990)"/>
     <wire from="(1290,820)" to="(1320,820)"/>
     <wire from="(1290,850)" to="(1300,850)"/>
+    <wire from="(1290,950)" to="(1290,960)"/>
+    <wire from="(1290,950)" to="(1330,950)"/>
+    <wire from="(1290,960)" to="(1290,970)"/>
+    <wire from="(1290,970)" to="(1340,970)"/>
     <wire from="(1300,840)" to="(1300,850)"/>
     <wire from="(1300,840)" to="(1320,840)"/>
+    <wire from="(1300,930)" to="(1340,930)"/>
+    <wire from="(1300,990)" to="(1340,990)"/>
     <wire from="(1330,320)" to="(1380,320)"/>
     <wire from="(1330,350)" to="(1350,350)"/>
     <wire from="(1330,380)" to="(1350,380)"/>
@@ -854,8 +899,14 @@
     <wire from="(1350,510)" to="(1470,510)"/>
     <wire from="(1350,560)" to="(1380,560)"/>
     <wire from="(1350,610)" to="(1350,620)"/>
+    <wire from="(1370,940)" to="(1390,940)"/>
+    <wire from="(1370,980)" to="(1390,980)"/>
     <wire from="(1380,340)" to="(1380,370)"/>
     <wire from="(1380,600)" to="(1380,630)"/>
+    <wire from="(1390,940)" to="(1390,950)"/>
+    <wire from="(1390,950)" to="(1420,950)"/>
+    <wire from="(1390,970)" to="(1390,980)"/>
+    <wire from="(1390,970)" to="(1420,970)"/>
     <wire from="(140,140)" to="(150,140)"/>
     <wire from="(140,390)" to="(140,400)"/>
     <wire from="(140,50)" to="(150,50)"/>
@@ -866,6 +917,7 @@
     <wire from="(1440,560)" to="(1450,560)"/>
     <wire from="(1450,300)" to="(1450,410)"/>
     <wire from="(1450,560)" to="(1450,670)"/>
+    <wire from="(1450,960)" to="(1470,960)"/>
     <wire from="(1470,220)" to="(1470,250)"/>
     <wire from="(1470,250)" to="(1560,250)"/>
     <wire from="(1470,480)" to="(1470,510)"/>
