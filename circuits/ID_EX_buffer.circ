@@ -136,7 +136,7 @@
     <comp lib="0" loc="(140,1400)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="func"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(140,870)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -222,7 +222,7 @@
     <comp lib="0" loc="(1440,2320)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="func"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(1440,2360)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -326,7 +326,7 @@
     </comp>
     <comp lib="0" loc="(1570,2320)" name="Tunnel">
       <a name="label" val="n_func"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(1570,2440)" name="Tunnel">
       <a name="label" val="n_sh_amount"/>
@@ -427,7 +427,7 @@
     </comp>
     <comp lib="0" loc="(280,1400)" name="Tunnel">
       <a name="label" val="func"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(280,510)" name="Tunnel">
       <a name="label" val="RD2"/>
@@ -530,7 +530,7 @@
     <comp lib="0" loc="(820,1470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="n_func"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(840,1100)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -579,7 +579,7 @@
       <a name="facing" val="west"/>
       <a name="label" val="n_func"/>
       <a name="output" val="true"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(850,710)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -699,7 +699,7 @@
     </comp>
     <comp lib="4" loc="(1480,2290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
-      <a name="width" val="5"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="4" loc="(1480,2410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
