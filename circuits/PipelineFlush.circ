@@ -10,7 +10,6 @@
     </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="north"/>
     </tool>
     <tool name="Probe">
       <a name="appearance" val="classic"/>
@@ -150,8 +149,9 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="Branch"/>
     </comp>
-    <comp lib="0" loc="(340,330)" name="Constant">
-      <a name="value" val="0x0"/>
+    <comp lib="0" loc="(340,330)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="BranchPrediction"/>
     </comp>
     <comp lib="0" loc="(340,370)" name="Pin">
       <a name="appearance" val="classic"/>
