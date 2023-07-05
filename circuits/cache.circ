@@ -782,7 +782,11 @@
       <a name="label" val="hit"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(920,1370)" name="Pin">
+    <comp lib="0" loc="(890,1400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reset"/>
+    </comp>
+    <comp lib="0" loc="(950,1350)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="miss"/>
@@ -807,6 +811,10 @@
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(910,1370)" name="NOT Gate"/>
+    <comp lib="1" loc="(950,1390)" name="AND Gate">
+      <a name="negate1" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="12" loc="(1080,360)" name="set"/>
     <comp lib="12" loc="(1080,570)" name="set"/>
     <comp lib="12" loc="(1080,780)" name="set"/>
@@ -1181,8 +1189,15 @@
     <wire from="(860,1330)" to="(860,1370)"/>
     <wire from="(860,1330)" to="(870,1330)"/>
     <wire from="(860,1370)" to="(880,1370)"/>
-    <wire from="(910,1370)" to="(910,1430)"/>
-    <wire from="(910,1370)" to="(920,1370)"/>
-    <wire from="(910,1430)" to="(1220,1430)"/>
+    <wire from="(890,1400)" to="(910,1400)"/>
+    <wire from="(910,1370)" to="(910,1380)"/>
+    <wire from="(910,1380)" to="(920,1380)"/>
+    <wire from="(940,1350)" to="(940,1370)"/>
+    <wire from="(940,1350)" to="(950,1350)"/>
+    <wire from="(940,1370)" to="(960,1370)"/>
+    <wire from="(950,1390)" to="(960,1390)"/>
+    <wire from="(960,1370)" to="(960,1390)"/>
+    <wire from="(960,1390)" to="(960,1430)"/>
+    <wire from="(960,1430)" to="(1220,1430)"/>
   </circuit>
 </project>
